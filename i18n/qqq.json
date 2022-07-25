@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"betacluster": "The name of the extension",
+	"betacluster-desc": "TODO",
+	"betacluster-allowlist-error-title": "Title of the disallowed action error page",
+	"betacluster-allowlist-error-message": "Message to be shown when a user ($1) is not on the allowlist"
+}

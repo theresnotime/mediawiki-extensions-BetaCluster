@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"betacluster": "BetaCluster",
+	"betacluster-desc": "TODO",
+	"betacluster-allowlist-error-title": "Action disallowed",
+	"betacluster-allowlist-error-message": "$1 cannot be added to this group, as they are not on the allowlist."
+}

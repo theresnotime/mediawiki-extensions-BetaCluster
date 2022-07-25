@@ -1,0 +1,41 @@
+{
+	"manifest_version": 2,
+	"name": "BetaCluster",
+	"author": [
+		"TODO"
+	],
+	"url": "TODO",
+	"version": "0.1.0",
+	"license-name": "GPL-2.0-or-later",
+	"namemsg": "betacluster",
+	"descriptionmsg": "betacluster-desc",
+	"type": "hook",
+	"requires": {
+		"MediaWiki": ">= 1.38.0",
+		"extensions": {
+			"CheckUser": "*"
+		}
+	},
+	"config": {
+		"BetaClusterCheckUserAllowlist": {
+			"value": []
+		}
+	},
+	"ConfigRegistry": {
+		"BetaCluster": "GlobalVarConfig::newInstance"
+	},
+	"MessagesDirs": {
+		"BetaCluster": [ "i18n" ]
+	},
+	"Hooks": {
+		"ChangeUserGroups": "BetaCluster"
+	},
+	"HookHandlers": {
+		"BetaCluster": {
+			"class": "MediaWiki\\Extension\\BetaCluster\\BetaCluster"
+		}
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\BetaCluster\\": "includes/"
+	}
+}
