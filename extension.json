@@ -11,10 +11,7 @@
 	"descriptionmsg": "betacluster-desc",
 	"type": "hook",
 	"requires": {
-		"MediaWiki": ">= 1.38.0",
-		"extensions": {
-			"CheckUser": "*"
-		}
+		"MediaWiki": ">= 1.38.0"
 	},
 	"config": {
 		"BetaClusterCheckUserAllowlist": {
