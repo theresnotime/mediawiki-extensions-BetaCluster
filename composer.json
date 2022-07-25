@@ -1,4 +1,7 @@
 {
+	"name": "betacluster",
+	"description": "TODO",
+	"licence": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=5.5.9"
 	},
