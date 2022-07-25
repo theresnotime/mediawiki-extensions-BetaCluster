@@ -33,6 +33,6 @@
 		}
 	},
 	"AutoloadNamespaces": {
-		"MediaWiki\\Extension\\BetaCluster\\": "includes/"
+		"MediaWiki\\Extension\\BetaCluster\\": "src/"
 	}
 }
